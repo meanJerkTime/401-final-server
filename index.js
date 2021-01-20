@@ -11,7 +11,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server, {
   cors: {
-    origin: 'https://js401-final-test-server.herokuapp.com/',
+    origin: 'http://localhost:3000',
     methods: ['GET', 'POST'],
     credentials: true
   }

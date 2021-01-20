@@ -4,7 +4,8 @@
   "description": "Server for Munchkin web app project",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "nodemon": "nodemon index.js",
+    "start": "node index.js",
     "test": "jest --verbose --coverage"
   },
   "repository": {
