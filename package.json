@@ -1,0 +1,33 @@
+{
+  "name": "401-final-server",
+  "version": "1.0.0",
+  "description": "Server for Munchkin web app project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meanJerkTime/401-final-server.git"
+  },
+  "keywords": [
+    "server",
+    "socket.io",
+    "express",
+    "react",
+    "jest",
+    "events"
+  ],
+  "author": "Joe Pennock, Diane Stephani, Peng Chen, Edgar Romero, Brendon Hampton, Chris Bortel, Kory Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meanJerkTime/401-final-server/issues"
+  },
+  "homepage": "https://github.com/meanJerkTime/401-final-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^3.1.0"
+  }
+}
