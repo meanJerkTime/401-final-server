@@ -26,7 +26,7 @@ io.on('connection', (socket) => {
 
   socket.on('disconnect', () => {
     console.log('user has left');
-  })
+  });
 });
 
 app.use(cors());
